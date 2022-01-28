@@ -27,7 +27,8 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a string variable called name and set it to 'Dane'.
-// We check if name is an exact match to 'Mary'. If name is an exact match to 'Mary', we console.log 'Hi, Mary!'
+// We check if name is an exact match to 'Mary'. If name is an exact match
+// to 'Mary', we console.log 'Hi, Mary!'
 // If name is not an exact match to 'Mary', we console.log 'How do you do?'
 // Name is not an exact match to 'Mary,' so we console.log 'How do you do?'
 
@@ -47,8 +48,12 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We make a string variable called secret and do not assign a value to it.
 // We make a number variable called code and set it to 123.
-// We check if code is an exact match to 123. Code is an exact match to 123, so the variable secret is now set to 'super', and the variable code is now multiplied by 2, which sets it to 246.
-// We then check if code is greater than 250. Code is not greater than 250, so the variable secret does not get set to 'duper'. We console.log the variable secret, and it will show up in the console as 'super'.
+// We check if code is an exact match to 123. Code is an exact match to 123,
+// so the variable secret is now set to 'super', and the variable code is
+// now multiplied by 2, which sets it to 246.
+// We then check if code is greater than 250. Code is not greater than 250,
+// so the variable secret does not get set to 'duper'. We console.log the
+// variable secret, and it will show up in the console as 'super'.
 
 //CODE
 /*
@@ -70,12 +75,19 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We make a Boolean variable called isStudent and set it to true. We then make a number variable called age and set it to 34.
+// We make a Boolean variable called isStudent and set it to true. We then
+// make a number variable called age and set it to 34.
 // We then make another number variable called zip and set it to 55407.
-// We check if isStudent is an exact match to true and zip is greater than 80000. isStudent is an exact match to true, but zip is not greater than 80000, so we do not console log 'You're a student on the West Coast!
-// We then check if isStudent is an exact match to false, or if age is less than 30. Neither of these are true, so we do not console log 'What are your hobbies?'
-// We then check if isStudent is an exact match to true. isStudent is an exact match to true, so we console log 'Welcome to Prime!'
-// If isStudent was not an exact match to true, we would console log 'How about the weather?'
+// We check if isStudent is an exact match to true and zip is greater than
+// 80000. isStudent is an exact match to true, but zip is not greater than
+// 80000, so we do not console log 'You're a student on the West Coast!'
+// We then check if isStudent is an exact match to false, or if age is less
+// than 30. Neither of these are true, so we do not console log 'What are
+// your hobbies?'
+// We then check if isStudent is an exact match to true. isStudent is an
+// exact match to true, so we console log 'Welcome to Prime!'
+// If isStudent was not an exact match to true, we would console log 'How
+// about the weather?'
 
 //CODE
 /*
