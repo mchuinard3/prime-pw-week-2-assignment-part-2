@@ -148,9 +148,19 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX colorOne should be set to 'blue' and colorTwo should be set to 'red'
+// Should be let colorOne = 'blue';
+// let colorTwo = 'red';
+
 if (mix === true) {
   colorOne = 'purple';
 }
+
+// FIX need to add colorTwo = 'purple'; in if statement
+// Should be if (mix === true) {
+// colorOne = 'purple';
+// colorTwo = 'purple';
+// }
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
