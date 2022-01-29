@@ -171,10 +171,15 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX need to change const time = 4; to let time = 4; because time is a
+// variable that can and will change
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+// FIX need to change || to && in if statement because it is and, not or
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
@@ -190,3 +195,13 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+
+// FIX age should be the first variable in if statement, and the sign
+// should say >= (greater than or equal to minAge), 'enter' should be in first
+// console log underneath if statement, 'no entry' should be in second console
+// log underneath else statement, code should read as follows:
+// if(age >= minAge); {
+//  console.log('enter');
+// } else {
+//  console.log('no entry');
+// }
