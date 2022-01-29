@@ -156,10 +156,12 @@ if (mix === true) {
   colorOne = 'purple';
 }
 
-// FIX need to add colorTwo = 'purple'; in if statement
-// Should be if (mix === true) {
-// colorOne = 'purple';
-// colorTwo = 'purple';
+// FIX need to take away === true in if statement, and need to add
+// colorTwo = 'purple'; beneath colorOne = 'purple'; in if statement
+// Code should read::
+// if (mix) {
+//  colorOne = 'purple';
+//  colorTwo = 'purple';
 // }
 */
 
@@ -200,7 +202,7 @@ if(minAge <= age) {
 // should say >= (greater than or equal to minAge), 'enter' should be in first
 // console log underneath if statement, 'no entry' should be in second console
 // log underneath else statement, code should read as follows:
-// if(age >= minAge); {
+// if (age >= minAge); {
 //  console.log('enter');
 // } else {
 //  console.log('no entry');
